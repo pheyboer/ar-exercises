@@ -8,7 +8,6 @@ puts "----------"
 # Assigning instance variables
 @store1 = Store.find(1)
 @store2 = Store.find(2)
-@store3 = Store.find(3)
 
 # Update store1
 @store1.update(name: "Brand New Burnaby")
